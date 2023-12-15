@@ -1,0 +1,20 @@
+.contanier
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+.contanier-grid
+{  
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 50px); 
+}
+.cell
+{
+    border:0.5px solid black;
+    text-align: center;
+    padding: 10px;
+}
