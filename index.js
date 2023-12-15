@@ -20,7 +20,7 @@
         if (checkWinner()) 
         {
             winMessage.innerHTML = `Player ${currentPlayer} wins!`;
-        } else if (gameBoard.foreach(cell => cell !== '')) {
+        } else if (gameBoard.every(cell => cell !== '')) {
             winMessage.innerHTML = 'It\'s a draw!';
         }
         else{
